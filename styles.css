@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    flex: auto;
+    background-color: #1F2937;
+}
+
+.header, .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding-left: 70px;
+    padding-right: 60px;
+    gap: 40px;
+}
+
+.h-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-bottom {
+    display: flex;
+    margin-bottom: 80px;
+    gap: 20px;
+}
+
+.h-top h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content {
+    background-color: #ffffff;
+
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+}
+
+img {
+    height: 250px;
+    flex: 1 1 0;
+}
+
+.h-content {
+    flex: auto;
+}
+
+.h-content h2 {
+    display: contents;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.h-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.h-content button {
+    background-color: #3662f6;
+    color: #e5e7eb;
+    padding: 5px 18px 5px 18px ;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.main-info {
+    text-align: center;
+
+}
+
+.main-info h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.main-info-square {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.square-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+}
+
+.square-text p {
+    text-align: center;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3662f6;
+    border-radius: 10px;
+}
+
+.quote-section {
+    padding: 40px 124px 40px 140px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section strong {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+
+.CTA {
+    display: flex;
+    background-color: #3662f6;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.CTA-text h5 {
+    margin-bottom: 0;
+}
+
+.CTA-text p {
+    margin-top: 0;
+}
+
+.CTA button {
+    background-color: #3662f6;
+    color: #e5e7eb;
+    padding: 3px 18px 3px 18px ;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 25px;
+}
